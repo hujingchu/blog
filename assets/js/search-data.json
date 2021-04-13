@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "The COVID-19 epitope distance",
-            "content": "",
+            "content": "import pandas as pd import altair as alt cars = &#39;https://cdn.jsdelivr.net/npm/vega-datasets@1/data/cars.json&#39; movies = &#39;https://cdn.jsdelivr.net/npm/vega-datasets@1/data/movies.json&#39; sp500 = &#39;https://cdn.jsdelivr.net/npm/vega-datasets@1/data/sp500.csv&#39; stocks = &#39;https://cdn.jsdelivr.net/npm/vega-datasets@1/data/stocks.csv&#39; flights = &#39;https://cdn.jsdelivr.net/npm/vega-datasets@1/data/flights-5k.json&#39; selection = alt.selection_single(); alt.Chart(cars).mark_circle().add_selection( selection ).encode( x=&#39;Horsepower:Q&#39;, y=&#39;Miles_per_Gallon:Q&#39;, color=alt.condition(selection, &#39;Cylinders:O&#39;, alt.value(&#39;grey&#39;)), opacity=alt.condition(selection, alt.value(0.8), alt.value(0.1)) ) .",
             "url": "https://hujingchu.github.io/blog/fastpages/jupyter/2020/04/13/test.html",
             "relUrl": "/fastpages/jupyter/2020/04/13/test.html",
             "date": " • Apr 13, 2020"
