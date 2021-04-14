@@ -82,7 +82,7 @@ key: value
 - another_key: "another value"
 ```
 
-<iframe src="flowers.html"
+<iframe src="/assets/flowers.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
     height="500"
